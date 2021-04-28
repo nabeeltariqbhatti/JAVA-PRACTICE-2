@@ -10,14 +10,14 @@ public class Fibonacci {
 		System.out.print("Enter Number to find Fibonacci");
 		int number=sc.nextInt();
 		
-		System.out.print(printFibonacci(number));
+		System.out.print( printFibonacci(number));
 		
 
 	}
 	
 	public static int printFibonacci(int number) {
-
-		if(number==0 || number==1) {
+        
+		if( number==0|| number==1) {
 			return number;
 		}else {
 			
